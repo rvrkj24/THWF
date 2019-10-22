@@ -27,53 +27,84 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-                <table class="table table-bordered table-responsive">
-                        <thead>
-                          <tr>
-                            <th scope="col">Image</th>
-                            <th scope="col">Product</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">Total</th>
-                            <th scope="col">Remove</th>
+         
+                      <table class="table table-image table-bordered table-responsive">
+                          <thead>
+                            <tr class="text-center">
+                                <th scope="col">Image</th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Remove</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="text-center">
+                              <th scope="row" class="w-25"><img src="image/HELP.jpg" class="img-fluid img-thumbnail" alt="THWY Book"></th>
+                              <td>
+                                  <p>The Heartfulness Way curriculum </p>
+                                    <p><span class="theme-color"> Category:</span> Lesson Plan for Teachers
+                                </p>
+                                <p>Grade: 1</p>
+                              </td>
+                              <td><i class="fa fa-inr" aria-hidden="true"></i>125</td>
+                              <td> Quantity:
+                                  <select>
+                                     <option value="1">1</option>
+                                     <option value="2">2</option>
+                                     <option value="3">3</option>
+                                     <option value="4">4</option>
+                                     <option value="5">5</option>
+                                     <option value="6">6</option>
+                                     <option value="7">7</option>
+                                     <option value="8">8</option>
+                                     <option value="9">9</option>
+                                   </select></td>
+                              <td><i class="fa fa-inr" aria-hidden="true"></i>125</td>
+                              <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                            </tr>
+                            
+                          </tbody>
+                        </table>   
 
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th class="p-2" scope="col"><img src="image/HELP.jpg" alt="Heartfulness Education" width="20%"></th>
-                            <th><p>The Heartfulness Way curriculum <br>
-                                <span class="theme-color"> Category:</span> Lesson Plan for Teachers <br>
-                                Grade: 1
-                            </p></th>
-                            <th class="p-2"><i class="fa fa-inr" aria-hidden="true"></i>125</th>
-                            <th class="p-2">
-                                    Quantity:
-                                    <select>
-                                       <option value="1">1</option>
-                                       <option value="2">2</option>
-                                       <option value="3">3</option>
-                                       <option value="4">4</option>
-                                       <option value="5">5</option>
-                                       <option value="6">6</option>
-                                       <option value="7">7</option>
-                                       <option value="8">8</option>
-                                       <option value="9">9</option>
-                                     </select>
-                            </th class="p-2">
-                            <th class="p-2"><i class="fa fa-inr" aria-hidden="true"></i>125</th>
-                            <th class="p-2"><i class="fa fa-trash" aria-hidden="true"></i></th>
-                          </tr>
-                         
-                        </tbody>
-                      </table>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12 text-right">
+                              <a class="btn" href="" target="blank" rel="noopener noreferrer">Checkout</a>
+                          </div>
+                        </div>
+                      </div>
         </div>
     </div>
 </div>
+<hr>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <form action="/action_page.php">
+            <div class="container text-center">
+              <h2>Stay With Us</h2>
+              <br>
+              <h4>Subscribe to our newsletters now and stay up-to-date with new books</h4>
+            <br>
+            </div>
 
+            <div class="container text-center" style="background-color:white">
 
+              <input type="text" placeholder="Email address" name="mail" required>
 
+            </div>
 
+            <div class="container text-center">
+              <input type="submit" class="btn" value="Subscribe">
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+
+<hr>
 
 
 <!-- Bootstrap core JavaScript
